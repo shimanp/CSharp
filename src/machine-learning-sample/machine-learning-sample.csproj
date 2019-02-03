@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>machine_learning_sample</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NMeCabNetStandard" Version="0.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="naturallang\data\" />
+  </ItemGroup>
+
+</Project>
